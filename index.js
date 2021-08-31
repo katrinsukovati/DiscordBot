@@ -23,7 +23,7 @@ client.once('ready', () => {
 
 client.on("messageCreate", message => {
     if (message.author.bot) {
-        // So nothing
+        // Do nothing
         return;
     }
 
